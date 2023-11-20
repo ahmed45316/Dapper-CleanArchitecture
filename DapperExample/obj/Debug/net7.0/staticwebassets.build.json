@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YA2zzw8nDWDVZUaDzIitjJHlQgxcbL98Gsi4ik2LWtY=",
+  "Source": "DapperExample.API",
+  "BasePath": "_content/DapperExample.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

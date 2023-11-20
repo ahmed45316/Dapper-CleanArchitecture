@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DapperExample.Domain.Models
+﻿namespace DapperExample.Domain.Models
 {
     public class Product
     {
@@ -12,5 +6,9 @@ namespace DapperExample.Domain.Models
         public string Name { get; set; } = string.Empty;
         public decimal Price { get; set; }
         public string Description { get; set; } = string.Empty;
-    } 
+    }
+    public class CommandProduct : Product
+    {
+        public string Action { get; set; }
+    }
 }

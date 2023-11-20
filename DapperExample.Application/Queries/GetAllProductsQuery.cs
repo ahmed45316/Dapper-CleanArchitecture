@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DapperExample.Domain.Models;
 using MediatR;
-using DapperExample.Domain.Models;
 
 namespace DapperExample.Application.Queries
 {
-    public record GetAllProductsQuery : IRequest<List<Product>>;
+    public record GetAllProductsQuery(string? name = null, decimal? price = null) : IRequest<List<Product>>;
 }

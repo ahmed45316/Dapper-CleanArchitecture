@@ -1,12 +1,11 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using DapperExample.Application.Queries;
 using DapperExample.Domain.Models;
-using DapperExample.Application.Queries;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DapperExample.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -17,12 +16,11 @@ namespace DapperExample.API.Controllers
             _mediator = mediator;
         }
 
-        [HttpGet("GetProducts")]
-        public async Task<List<Product>> GetSignatures()
+        [HttpGet]
+        public async Task<List<Product>> GetProducts()
         {
             var query = new GetAllProductsQuery();
             List<Product> getSignatureResult = await _mediator.Send(query);
-
             return getSignatureResult;
         }
     }

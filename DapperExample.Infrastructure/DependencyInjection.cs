@@ -1,9 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using DapperExample.Application.Abstractions;
-using DapperExample.Application.Persistance;
+﻿using DapperExample.Application.Abstractions;
 using DapperExample.Infrastructure.Persistance;
-using DapperExample.Infrastructure.DatabaseContext;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace DapperExample.Infrastructure
 {

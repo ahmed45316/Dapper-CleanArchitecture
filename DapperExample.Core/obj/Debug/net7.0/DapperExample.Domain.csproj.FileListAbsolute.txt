@@ -1,0 +1,12 @@
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Core\bin\Debug\net7.0\DapperExample.Domain.deps.json
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Core\bin\Debug\net7.0\DapperExample.Domain.dll
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Core\bin\Debug\net7.0\DapperExample.Domain.pdb
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Core\obj\Debug\net7.0\DapperExample.Domain.csproj.AssemblyReference.cache
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Core\obj\Debug\net7.0\DapperExample.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Core\obj\Debug\net7.0\DapperExample.Domain.AssemblyInfoInputs.cache
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Core\obj\Debug\net7.0\DapperExample.Domain.AssemblyInfo.cs
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Core\obj\Debug\net7.0\DapperExample.Domain.csproj.CoreCompileInputs.cache
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Core\obj\Debug\net7.0\DapperExample.Domain.dll
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Core\obj\Debug\net7.0\refint\DapperExample.Domain.dll
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Core\obj\Debug\net7.0\DapperExample.Domain.pdb
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Core\obj\Debug\net7.0\ref\DapperExample.Domain.dll

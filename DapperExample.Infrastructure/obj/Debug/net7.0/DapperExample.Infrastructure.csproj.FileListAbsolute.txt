@@ -1,0 +1,17 @@
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\bin\Debug\net7.0\DapperExample.Infrastructure.deps.json
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\bin\Debug\net7.0\DapperExample.Infrastructure.dll
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\bin\Debug\net7.0\DapperExample.Infrastructure.pdb
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\bin\Debug\net7.0\DapperExample.Application.dll
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\bin\Debug\net7.0\DapperExample.Domain.dll
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\bin\Debug\net7.0\DapperExample.Application.pdb
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\bin\Debug\net7.0\DapperExample.Domain.pdb
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\obj\Debug\net7.0\DapperExample.Infrastructure.csproj.AssemblyReference.cache
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\obj\Debug\net7.0\DapperExample.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\obj\Debug\net7.0\DapperExample.Infrastructure.AssemblyInfoInputs.cache
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\obj\Debug\net7.0\DapperExample.Infrastructure.AssemblyInfo.cs
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\obj\Debug\net7.0\DapperExample.Infrastructure.csproj.CoreCompileInputs.cache
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\obj\Debug\net7.0\DapperExample.Infrastructure.csproj.CopyComplete
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\obj\Debug\net7.0\DapperExample.Infrastructure.dll
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\obj\Debug\net7.0\refint\DapperExample.Infrastructure.dll
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\obj\Debug\net7.0\DapperExample.Infrastructure.pdb
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Infrastructure\obj\Debug\net7.0\ref\DapperExample.Infrastructure.dll

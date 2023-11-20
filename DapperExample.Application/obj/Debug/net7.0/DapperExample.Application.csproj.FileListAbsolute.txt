@@ -1,0 +1,15 @@
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\bin\Debug\net7.0\DapperExample.Application.deps.json
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\bin\Debug\net7.0\DapperExample.Application.dll
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\bin\Debug\net7.0\DapperExample.Application.pdb
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\bin\Debug\net7.0\DapperExample.Domain.dll
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\bin\Debug\net7.0\DapperExample.Domain.pdb
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\obj\Debug\net7.0\DapperExample.Application.csproj.AssemblyReference.cache
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\obj\Debug\net7.0\DapperExample.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\obj\Debug\net7.0\DapperExample.Application.AssemblyInfoInputs.cache
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\obj\Debug\net7.0\DapperExample.Application.AssemblyInfo.cs
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\obj\Debug\net7.0\DapperExample.Application.csproj.CoreCompileInputs.cache
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\obj\Debug\net7.0\DapperExample.Application.csproj.CopyComplete
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\obj\Debug\net7.0\DapperExample.Application.dll
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\obj\Debug\net7.0\refint\DapperExample.Application.dll
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\obj\Debug\net7.0\DapperExample.Application.pdb
+F:\Demo\Dapper-CleanArchitecture\DapperExample.Application\obj\Debug\net7.0\ref\DapperExample.Application.dll
