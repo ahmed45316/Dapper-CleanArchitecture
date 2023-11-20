@@ -1,4 +1,5 @@
 ﻿using DapperExample.Application.Abstractions;
+using DapperExample.Application.Persistance;
 using DapperExample.Infrastructure.Persistance;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -9,6 +10,7 @@ namespace DapperExample.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {
             services.AddScoped<ISqlConnectionFactory, SqlConnectionFactory>();
+            services.AddTransient<IProductRepository, ProductRepository>();
             return services;
         }
     }
