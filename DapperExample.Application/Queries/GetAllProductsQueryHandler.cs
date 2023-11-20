@@ -16,7 +16,7 @@ namespace DapperExample.Application.Queries
 
         public async Task<List<Product>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
         {
-            var parameters = new { FilterName = request.name, FilterPrice = request.price };
+            var parameters = new { Id = request.id, FilterName = request.name, FilterPrice = request.price };
             await using SqlConnection sqlConnection = _sqlConnectionFactory.CreateConnection();
             var products = await sqlConnection.QueryAsync<Product>("dbo.GetProducts", parameters, commandType: System.Data.CommandType.StoredProcedure);
             return products.ToList();

@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using DapperExample.Application.Abstractions;
+using DapperExample.Domain.Models;
 using MediatR;
 using Microsoft.Data.SqlClient;
 
@@ -16,8 +17,12 @@ namespace DapperExample.Application.Queries
         public async Task<int> Handle(ProductCommand request, CancellationToken cancellationToken)
         {
             await using SqlConnection sqlConnection = _sqlConnectionFactory.CreateConnection();
-            var result = await sqlConnection.ExecuteAsync("dbo.ManageProduct", request.product, commandType: System.Data.CommandType.StoredProcedure);
-            return request.product.Id;
+            var obj = new CommandProduct().SetProduct(request.action, request.product);
+            var dp = new DynamicParameters(obj);
+            dp.Add("ReturnId", dbType: System.Data.DbType.Int32, direction: System.Data.ParameterDirection.Output);
+            var result = await sqlConnection.ExecuteAsync("dbo.ManageProduct", dp, commandType: System.Data.CommandType.StoredProcedure);
+            var id = dp.Get<int>("ReturnId");
+            return id;
         }
     }
 }

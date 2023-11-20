@@ -3,5 +3,5 @@ using MediatR;
 
 namespace DapperExample.Application.Queries
 {
-    public record ProductCommand(CommandProduct product) : IRequest<int>;
+    public record ProductCommand(string action, Product product) : IRequest<int>;
 }
