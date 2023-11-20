@@ -17,17 +17,17 @@ namespace DapperExample.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetProducts()
+        public async Task<IActionResult> GetAllProducts()
         {
             var query = new GetAllProductsQuery();
             List<Product> result = await _mediator.Send(query);
             return Ok(result);
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetProducts(int id)
+        public async Task<IActionResult> GetProduct(int id)
         {
             var query = new GetAllProductsQuery(id);
-            List<Product> result = await _mediator.Send(query);
+            Product? result = (await _mediator.Send(query)).FirstOrDefault();
             return Ok(result);
         }
         [HttpPost]

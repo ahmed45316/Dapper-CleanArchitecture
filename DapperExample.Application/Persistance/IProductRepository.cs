@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DapperExample.Application.Filters;
 using DapperExample.Domain.Models;
 
 namespace DapperExample.Application.Persistance
 {
-    public interface IProductRepository
+    public interface IProductRepository: IBaseRepository
     {
-        Task<List<Product>> GetAll();
+        Task<List<Product>> Query(ProductFilter filter);
+        Task<int> Command(string action, Product product);
     }
 }
